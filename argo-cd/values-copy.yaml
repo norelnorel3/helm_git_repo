@@ -1866,7 +1866,7 @@ server:
 
   ingress:
     # -- Enable an ingress resource for the Argo CD server
-    enabled: true
+    enabled: false
     # -- Additional ingress annotations
     annotations: 
       kubernetes.io/ingress.class: "nginx"
